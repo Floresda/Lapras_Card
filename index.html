@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lapras Pokémon Card</title>
+  <style>
+    .card {
+      width: 350px;
+      height: 600px;
+      background-color: lightblue;
+      border: 5px solid blue;
+      border-radius: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    
+    .pokemon-name {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+      color: darkblue;
+      margin: 85px;
+      display:inline;
+    }
+    
+    .pokemon-type {
+      text-align: left;
+      font-size: 12px;
+      color: darkblue;
+    }
+    
+    .pokemon-image {
+      display: block;
+      margin: 0 auto;
+      width: 200px;
+      height: 200px;
+    }
+    
+    .pokemon-stats {
+      margin-top: 10px;
+      font-weight: bold;
+      color: darkblue;
+    }
+    
+    .attack-description {
+      margin-top: 10px;
+      color: darkblue;
+    }
+    .hp {
+        text-align: right;
+        font-size: 14px; 
+        margin: 0;
+        display:inline;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <p class="pokemon-type">Basic Pokémon</p>
+    <h2 class="pokemon-name">Lapras</h2><h2 class="hp">HP: 110</h2>
+    <img class="pokemon-image" src="lapras.png" alt="Lapras Image" style="width: 300px;">
+    <p class="pokemon-stats">HP: 110</p>
+    <p class="pokemon-stats">Ability: Seafaring</p>
+    <p class="pokemon-stats">Hydro Pump:</p>
+    <p>10+ damage (per Water Energy attached)</p>
+    <p class="attack-description">Flip 3 coins. For each heads, attach a Water Energy card from your discard pile to your Benched Pokémon in any way you like.</p>
+  </div>
+</body>
+</html>
